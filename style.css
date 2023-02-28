@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Jost', sans-serif;
+}
+
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.navbar-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0 10px 0;
+}
+
+.logo img{
+    width: 150px;
+}
+
+.menu-items{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+ul{
+    display: inline;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+
+}
+
+ul li a{
+    text-decoration: none;
+    margin: 10px;
+    color: black;
+}
+
+.signup-btn a{
+    text-decoration: none;
+    padding: 10px;
+    margin: 5px;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 5px;
+}
+
+.hero-section{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 30px;
+    padding-bottom: 0;
+    border-radius: 20px;
+    background-color: #F4F6F5;
+}
+
+.hero-text{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.hero-text h1{
+    font-size: 3.0rem;
+    line-height: 2.75rem;
+}
+
+.hero-text p{
+    font-size: 1.0rem;
+    line-height: 1.5rem;
+    margin: 15px 0;
+}
+
+.hero-text a{
+    text-decoration: none;
+    color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: black;
+}
+
+.hero-image img{
+    width: 422px;
+    margin-bottom: -6px;
+    overflow: hidden;
+}
+
+.brands-section{
+    background-color: #EBD96B;
+    padding: 5px;
+    margin: 20px 0;
+}
+
+.brand-section{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    align-items: center;
+    justify-items: center;
+
+}
+
+.brand-section{
+    padding: 20px;
+}
+
+.brand-image img{
+    width: 170px;
+}
+
+.new-arrivals-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-items: center;
+    grid-gap: 10px;
+    margin: 25px 0;
+}
+
+.new-arrivals-card{
+    width: 230px;
+}
+
+.tittle-group{
+    margin: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.heading{
+    font-size: 2.2rem;
+    font-weight: 800;
+}
+
+.favourites-section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-items: center;
+    grid-gap: 10px;
+    margin: 25px 0;
+}
+
+.favourite-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.favourite-card img{
+    width: 500px;
+}
+
+.tittle-group-fv{
+    width: 100%;
+    margin: 20px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.tittle-group-fv p{
+    font-size: 16px;
+}
+
+.explore-now-btn img{
+    width: 50px;
+}
+
+.app-section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-items: center;
+    grid-gap: 10px;
+}
+
+.text-and-apps h1{
+    font-size: 35px;
+    font-weight: 800;
+}
+.text-and-apps p{
+    color: #7C7C7C;
+    font-size: 17px;
+    line-height: 20px;
+    margin: 10px 0;
+}
+
+.app-logo img{
+    width: 190px;
+    margin: 10px 5px 10px 0;
+}
+
+.apps-image img{
+    width: 500px;
+}
+
+.community-area{
+    background-color: #EBD96B;
+}
+
+.community-text{
+    color: white;
+    text-align: center;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.community-text h1{
+    font-size: 25px;
+    margin: 10px;
+
+}
+
+.community-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    padding: 8px;
+    width: 300px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.community-button input{
+    width: 300px;
+    background: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.send-btn a{
+    text-decoration: none;
+    font-weight: 600;
+    color: #fff;
+    background: #000;
+    padding: 7px 15px;
+    border-radius: 5px;
+    margin-left: 8px;
+}
+
